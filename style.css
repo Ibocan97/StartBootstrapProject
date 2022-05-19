@@ -83,13 +83,13 @@ header .menu nav a:hover {
 }
 @media screen and (max-width: 991px) {
   header .menu nav {
-    margin-left: auto;
+    margin-left: 10px;
   }
   header .menu nav a {
     cursor: pointer;
     font-size: 18px;
     color: #fff;
-    margin: 20px 18px 50px;
+    margin: 20px 10px 50px;
   }
   header .menu nav a:hover {
     color: #dfbf0c;
@@ -184,12 +184,13 @@ header .menu nav a:hover {
   font-weight: 700;
   margin: 18px 0;
 }
-#services .box h2 {
+#services .box h3 {
   font-size: 20px;
   color: #6c757d;
+  margin-bottom: 30px;
 }
 @media screen and (max-width: 320px) {
-  #services .box h2 {
+  #services .box h3 {
     margin-bottom: 20px;
   }
   #services .box .icon {
@@ -197,7 +198,7 @@ header .menu nav a:hover {
   }
 }
 @media screen and (max-width: 425px) {
-  #services .box h2 {
+  #services .box h3 {
     margin-bottom: 20px;
   }
   #services .box .icon {
@@ -275,10 +276,10 @@ header .menu nav a:hover {
 }
 @media screen and (max-width: 768px) {
   #portfolio .box .one, #portfolio .box .two, #portfolio .box .three, #portfolio .box .four, #portfolio .box .five, #portfolio .box .six {
-    position: none;
+    display: none;
   }
 }
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 2560px) {
   #portfolio .box .one, #portfolio .box .two, #portfolio .box .three, #portfolio .box .four, #portfolio .box .five, #portfolio .box .six {
     display: none;
   }
@@ -521,7 +522,7 @@ header .menu nav a:hover {
 }
 
 #contact {
-  padding: 0 0;
+  padding: 0;
   background-image: url("assets/Contact us/map.png");
   background-color: #212529;
   background-position: center;
