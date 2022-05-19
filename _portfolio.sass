@@ -1,0 +1,54 @@
+#portfolio
+    h1
+        font-size: 50px
+        font-weight: 700
+        margin-top: 30px
+    h2
+        font-size: 20px
+        margin: 20px 0 60px
+        color: #8a8989
+    .box
+        text-align: center
+        h1
+            font-size: 35px
+            font-weight: 700
+        h2
+            font-size: 20px
+            color: #8a8989
+        .one,.two,.three,.four,.five,.six
+            position: absolute
+            top: 1832px
+            left: 71px
+            opacity: 0.01
+            width: 417px
+            height: 313px
+            &:hover
+                opacity: 0.9
+                transition: 0.4s
+                background-color: #ffc800
+                cursor: pointer
+                h3
+                    font-size: 120px
+                    color: #fff
+                    margin-top: 85px
+        .two
+            top: 1832px
+            left: 512px
+        .three
+            top: 1832px
+            left: 952px
+        .four
+            top: 2309px
+            left: 71px
+        .five
+            top: 2309px
+            left: 512px
+        .six
+            top: 2309px
+            left: 952px
+        @media screen and ( max-width: 768px )
+            .one,.two,.three,.four,.five,.six
+                position: none
+        @media screen and ( max-width: 1024px )
+            .one,.two,.three,.four,.five,.six
+                display: none
