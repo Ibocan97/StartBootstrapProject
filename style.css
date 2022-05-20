@@ -285,9 +285,6 @@ header .menu nav a:hover {
   }
 }
 
-#about .margins {
-  margin-top: 50px;
-}
 #about .txt h1 {
   font-size: 50px;
   font-weight: 700;
@@ -343,13 +340,11 @@ header .menu nav a:hover {
 }
 @media screen and (max-width: 768px) {
   #about .reverse {
-    margin: auto;
     display: flex;
     flex-direction: row-reverse;
   }
   #about .imgbox {
     width: 150px;
-    margin: 20px 0 145px;
   }
   #about .second-img, #about .fourth-img {
     width: 150px;
@@ -357,7 +352,6 @@ header .menu nav a:hover {
   #about .textbox {
     text-align: left;
     max-width: 302px;
-    margin: 0 47px;
   }
   #about .textbox h1, #about .textbox h2 {
     font-size: 25px;
@@ -368,17 +362,10 @@ header .menu nav a:hover {
   #about .text-left {
     text-align: right;
   }
-  #about .yellow-circle {
-    margin-right: 58px;
-  }
 }
 @media screen and (max-width: 1024px) {
-  #about .margins {
-    margin-top: 50px;
-  }
   #about .textbox {
     max-width: 302px;
-    margin: 0 47px;
   }
   #about .imgbox {
     width: 150px;
@@ -386,9 +373,6 @@ header .menu nav a:hover {
   }
   #about .second-img, #about .fourth-img {
     width: 150px;
-  }
-  #about .yellow-circle {
-    margin-right: 18px;
   }
   #about .yellow-circle h1 {
     background-color: #ffc800;
