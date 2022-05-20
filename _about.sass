@@ -8,6 +8,7 @@
             margin: 20px
             color: #8a8989
     .textbox
+        display: inline-block
         text-align: right
         max-width: 397px
         margin: 0 75px
@@ -21,9 +22,11 @@
             line-height: 1.4
             color: #8a8989
     .txt-left
+        margin-left: 50px
         text-align: left
     .imgbox
-        width: 202px
+        display: inline-block
+        max-width: 202px
         border: 8px solid #8a898934
         border-radius: 50%
     .yellow-circle
@@ -42,9 +45,10 @@
 
     @media screen and ( max-width: 425px )
         .imgbox
-            width: 339px
+            max-width: 339px
         .second-img,.fourth-img
-            width: 100px
+            max-width: 339px
+
 
     @media screen and ( max-width: 768px )
         .reverse
@@ -63,14 +67,14 @@
                 font-size: 18px
         .text-left
             text-align: right
-        .yellow-circle
 
+        
     @media screen and ( max-width: 1024px )
         .textbox
             max-width: 302px
         .imgbox
             width: 150px
-            margin: 20px 0 190px
+            margin-bottom: 90px
         .second-img,.fourth-img
             width: 150px
         .yellow-circle

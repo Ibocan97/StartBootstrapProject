@@ -295,6 +295,7 @@ header .menu nav a:hover {
   color: #8a8989;
 }
 #about .textbox {
+  display: inline-block;
   text-align: right;
   max-width: 397px;
   margin: 0 75px;
@@ -312,10 +313,12 @@ header .menu nav a:hover {
   color: #8a8989;
 }
 #about .txt-left {
+  margin-left: 50px;
   text-align: left;
 }
 #about .imgbox {
-  width: 202px;
+  display: inline-block;
+  max-width: 202px;
   border: 8px solid rgba(138, 137, 137, 0.2039215686);
   border-radius: 50%;
 }
@@ -332,10 +335,10 @@ header .menu nav a:hover {
 }
 @media screen and (max-width: 425px) {
   #about .imgbox {
-    width: 339px;
+    max-width: 339px;
   }
   #about .second-img, #about .fourth-img {
-    width: 100px;
+    max-width: 339px;
   }
 }
 @media screen and (max-width: 768px) {
@@ -369,7 +372,7 @@ header .menu nav a:hover {
   }
   #about .imgbox {
     width: 150px;
-    margin: 20px 0 190px;
+    margin-bottom: 90px;
   }
   #about .second-img, #about .fourth-img {
     width: 150px;
