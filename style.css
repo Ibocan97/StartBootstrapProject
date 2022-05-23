@@ -223,50 +223,6 @@ header .menu nav a:hover {
   font-size: 20px;
   color: #8a8989;
 }
-#portfolio .box .one, #portfolio .box .two, #portfolio .box .three, #portfolio .box .four, #portfolio .box .five, #portfolio .box .six {
-  position: absolute;
-  top: 1753px;
-  left: 71px;
-  opacity: 0.01;
-  width: 417px;
-  height: 313px;
-}
-#portfolio .box .one:hover, #portfolio .box .two:hover, #portfolio .box .three:hover, #portfolio .box .four:hover, #portfolio .box .five:hover, #portfolio .box .six:hover {
-  opacity: 0.9;
-  transition: 0.4s;
-  background-color: #ffc800;
-  cursor: pointer;
-}
-#portfolio .box .one:hover h3, #portfolio .box .two:hover h3, #portfolio .box .three:hover h3, #portfolio .box .four:hover h3, #portfolio .box .five:hover h3, #portfolio .box .six:hover h3 {
-  font-size: 120px;
-  color: #fff;
-  margin-top: 85px;
-}
-#portfolio .box .two {
-  top: 1753px;
-  left: 512px;
-}
-#portfolio .box .three {
-  top: 1753px;
-  left: 952px;
-}
-#portfolio .box .four {
-  top: 2230px;
-  left: 71px;
-}
-#portfolio .box .five {
-  top: 2230px;
-  left: 512px;
-}
-#portfolio .box .six {
-  top: 2230px;
-  left: 952px;
-}
-@media screen and (max-width: 1024px) {
-  #portfolio .box .one, #portfolio .box .two, #portfolio .box .three, #portfolio .box .four, #portfolio .box .five, #portfolio .box .six {
-    display: none;
-  }
-}
 
 #about .txt h1 {
   font-size: 50px;
