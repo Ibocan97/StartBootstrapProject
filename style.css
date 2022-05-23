@@ -99,7 +99,6 @@ header .menu nav a:hover {
 #welcome {
   background-image: url("assets/Welcome/welcome.jpg");
   background-position: center;
-  background-repeat: no-repeat;
   background-size: cover;
   padding: 150px 0;
 }
@@ -132,7 +131,6 @@ header .menu nav a:hover {
     padding: 100px 0;
   }
   #welcome .textbox {
-    color: #fff;
     padding: 50px 0;
   }
   #welcome .textbox h3 {
@@ -140,20 +138,10 @@ header .menu nav a:hover {
   }
   #welcome .textbox h1 {
     font-size: 60px;
-    font-weight: 700;
     margin: 20px 0 40px;
   }
   #welcome .textbox .btn {
     padding: 15px 40px;
-    background-color: #dfbf0c;
-  }
-  #welcome .textbox .btn h2 {
-    color: #fff;
-    font-weight: 700;
-    font-size: 23px;
-  }
-  #welcome .textbox .btn:hover {
-    background-color: rgba(213, 169, 23, 0.9529411765);
   }
 }
 
