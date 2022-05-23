@@ -225,7 +225,7 @@ header .menu nav a:hover {
 }
 #portfolio .box .one, #portfolio .box .two, #portfolio .box .three, #portfolio .box .four, #portfolio .box .five, #portfolio .box .six {
   position: absolute;
-  top: 1832px;
+  top: 1753px;
   left: 71px;
   opacity: 0.01;
   width: 417px;
@@ -243,31 +243,26 @@ header .menu nav a:hover {
   margin-top: 85px;
 }
 #portfolio .box .two {
-  top: 1832px;
+  top: 1753px;
   left: 512px;
 }
 #portfolio .box .three {
-  top: 1832px;
+  top: 1753px;
   left: 952px;
 }
 #portfolio .box .four {
-  top: 2309px;
+  top: 2230px;
   left: 71px;
 }
 #portfolio .box .five {
-  top: 2309px;
+  top: 2230px;
   left: 512px;
 }
 #portfolio .box .six {
-  top: 2309px;
+  top: 2230px;
   left: 952px;
 }
-@media screen and (max-width: 768px) {
-  #portfolio .box .one, #portfolio .box .two, #portfolio .box .three, #portfolio .box .four, #portfolio .box .five, #portfolio .box .six {
-    display: none;
-  }
-}
-@media screen and (max-width: 2560px) {
+@media screen and (max-width: 1024px) {
   #portfolio .box .one, #portfolio .box .two, #portfolio .box .three, #portfolio .box .four, #portfolio .box .five, #portfolio .box .six {
     display: none;
   }
