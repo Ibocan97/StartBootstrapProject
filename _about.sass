@@ -1,16 +1,19 @@
 #about
+    .reverse
+        display: flex
+        flex-direction: row-reverse
     .txt
         h1
             font-size: 50px
             font-weight: 700
+            margin-top: 80px
         h2
             font-size: 20px
             margin: 20px
-            color: #8a8989
+            color: #6c757d
     .textbox
-        text-align: right
-        max-width: 397px
-        margin: 0 75px
+        text-align: left
+        width: 76%
         h1,h2
             font-size: 30px
             font-weight: 700
@@ -19,70 +22,96 @@
         h3
             font-size: 19px
             line-height: 1.4
-            color: #8a8989
-    .txt-left
+            color: #6c757d
+    .txt-right
+        width: 38%
+        margin-left: 30px
         text-align: left
     .imgbox
-        max-width: 202px
-        border: 8px solid #8a898934
+        max-width: 100px
+        height: 25%
+        border: 7px solid #8a898934
         border-radius: 50%
+        margin-right: 20px
     .yellow-circle
         h1
             text-align: center
             background-color: #ffc800
             color: #fff
-            font-size: 28px
+            font-size: 16px
             font-weight: 700
             line-height: 1
-            width: 190px
-            border: 8px solid #e7eaeafe
+            width: 103px
+            border: 7px solid #e7eaeafe
             border-radius: 50%
-            padding: 41px 47px
-            margin: 0 555px
+            padding: 16px 20px
 
-
-
-    @media screen and ( max-width: 425px )
+    @media screen and ( min-width: 576px )
         .textbox
             text-align: left
-            h1,h2
-                font-size: 20px
+            width: 600px
             h3
-                font-size: 15px
-        .text-left
-            text-align: right
-
-
-    @media screen and ( max-width: 768px )
+                margin: 0
+        .txt-right
+            text-align: left
+            h3
+                margin: 0
         .imgbox
-            max-width: 110px
-            margin-bottom: 85px
+            width: 195px
+            margin-right: 50px
+        .yellow-circle
+            h1
+                font-size: 20px
+                width: 111px
+                padding: 13px 20px
+                margin: 0
+
+    @media screen and ( min-width: 768px )
         .reverse
             display: flex
-            flex-direction: row-reverse
+            flex-direction: row
         .textbox
-            max-width: 350px
-            text-align: left
-            h1,h2
-                font-size: 25px
-            h3
-                font-size: 18px
-        .text-left
             text-align: right
+            max-width: 272px
+            margin-right: 25px
+        .txt-left
+            text-align: left
+        .imgbox
+            width: 85px
+            margin-right: 20px
         .yellow-circle
             h1
-                width: 120px
-                margin-left: 85px
-        
-    @media screen and ( max-width: 1024px )
+                font-size: 15px
+                width: 86px
+                padding: 11px 5px
+                margin-right: 25px
+        .edit
+            justify-content: center
+
+    @media screen and ( min-width: 992px )
+        .textbox
+            text-align: right
+            max-width: 384px
+        .txt-left
+            text-align: left
+        .imgbox
+            width: 195px
         .yellow-circle
             h1
-                background-color: #ffc800
-                color: #fff
-                font-size: 13px
-                font-weight: 700
-                line-height: 1
-                border: 8px solid #e7eaeafe
-                border-radius: 50%
-                padding: 26px 28px
-                text-align: center
+                font-size: 19px
+                width: 105px
+                padding: 12px 18px
+
+    @media screen and ( min-width: 1200px )
+        .textbox
+            text-align: right
+            max-width: 535px
+        .txt-left
+            text-align: left
+        .imgbox
+            max-width: 160px
+        .yellow-circle
+            h1
+                font-size: 28px
+                width: 159px
+                padding: 26px 18px
